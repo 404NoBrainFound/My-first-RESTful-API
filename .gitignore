@@ -1,0 +1,6 @@
+node_modules
+uploads
+api/models/product.js
+api/routes/products.js
+sec.env
+readme.odt
