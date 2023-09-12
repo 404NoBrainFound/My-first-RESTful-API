@@ -131,3 +131,33 @@ router.delete("/:userId", (req, res, next) => {
 
 // Export router for use in other modules
 module.exports = router;
+
+/**
+ * Email Validation:
+ * -----------------
+ * This route uses the email validation provided in the database schema.
+ * Make sure any additional server-side validation is consistent with this.
+ * 
+ * Password Security:
+ * ------------------
+ * The password is hashed using bcrypt with 10 salt rounds.
+ * This can be modified to fit specific security requirements.
+ * 
+ * JWT Expiration:
+ * ---------------
+ * The JWT token generated upon login is set to expire in 1 hour.
+ * Change this as needed or implement a refresh token mechanism.
+ * 
+ * Response Status Codes:
+ * ----------------------
+ * 409 - Email already exists
+ * 201 - User created successfully
+ * 500 - Internal server error
+ * 401 - Authorization failed
+ * 
+ * Middleware Integration:
+ * -----------------------
+ * The checkAuth middleware can be easily integrated into other routes.
+ * Simply require it at the top and use it in your route definitions like so: router.post("/yourRoute", checkAuth, yourController);
+ */
+
