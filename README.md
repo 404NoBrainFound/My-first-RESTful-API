@@ -44,3 +44,26 @@ Additional Information:
 
 
 This project is a comprehensive template for those wanting to integrate secure, efficient, and stateless user authentication in their Node.js applications. It blends mainstream technologies with best practices to yield a product that's not just functionally rich but also secure and maintainable.
+
+
+⚠️ Warning: Use at Your Own Risk ⚠️
+
+🔊 Attention all Developers and Users:
+
+The code provided in this repository is presented "as-is" without any guarantees, warranties, or promises of its efficacy or security. It's important to recognize that this User Authentication RESTful API was originally designed as a part of a larger, more comprehensive project. While it serves as a strong foundational piece and a good starting point, it may not cover all the intricate details or requirements you may have for your specific application.
+
+Here's what you need to know:
+
+    Scope: This code serves as an example or a template, and is not intended to be a fully-fledged, production-ready solution. Tailoring to fit your particular use-case is strongly recommended.
+
+    Security: While best practices have been followed, no code is entirely foolproof. Make sure to conduct your own security audits, particularly if you plan to use this in a production environment.
+
+    Dependencies: Always check the latest versions of dependencies and ensure compatibility. Some might be deprecated or might have introduced breaking changes.
+
+    Testing: The code has not undergone rigorous testing for all edge cases. Employ extensive testing strategies before deploying to production.
+
+    Consult Resources: Make sure to consult additional resources and documentation to understand the full context and capabilities of the individual components used in this project.
+
+By using this code, you assume all risks and responsibilities. The author(s) will not be liable for any direct, indirect, or consequential damages or losses that may arise from using or modifying this code.
+
+Thank you for your attention, and proceed with due diligence! 💡
