@@ -24,3 +24,16 @@ const userSchema = mongoose.Schema({
 
 // Export the model, usable in other parts of your application
 module.exports = mongoose.model('User', userSchema);
+
+/**
+ * Schema Extensibility:
+ * ---------------------
+ * The schema is easily extendable.
+ * You can add new fields such as username, profileImage, etc., as per your application requirements.
+ * 
+ * Regular Expression:
+ * -------------------
+ * The regex pattern used for email validation matches most email formats.
+ * Update this pattern if your application needs a more specific or relaxed email validation.
+ */
+
