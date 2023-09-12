@@ -36,6 +36,7 @@ Features:
 
     Development:
         Nodemon for hot-reloading during development.
+        
 
 Security:
 
@@ -44,6 +45,7 @@ Additional Information:
 
 
 This project is a comprehensive template for those wanting to integrate secure, efficient, and stateless user authentication in their Node.js applications. It blends mainstream technologies with best practices to yield a product that's not just functionally rich but also secure and maintainable.
+
 
 
 ⚠️ Warning: Use at Your Own Risk ⚠️
