@@ -37,3 +37,16 @@ module.exports = (req, res, next) => {
 //
 // Example usage of checkAuth middleware in routes
 // router.post("/login", checkAuth, (req, res, next) => { /* your logic here */ });
+
+
+/**
+ * Token Format:
+ * -------------
+ * The expected format for the token is 'Bearer YOUR_TOKEN_HERE' in the Authorization header.
+ * 
+ * Error Messages:
+ * ---------------
+ * The message "Auth failed" is intentionally generic.
+ * You might want to keep it that way for security purposes or tailor it to be more or less descriptive.
+ */
+
