@@ -83,3 +83,23 @@ app.use((error, req, res, next) => {
 });
 
 module.exports = app;
+
+
+/**
+ * Environment Variables:
+ * -----------------------
+ * Make sure to set up your environment variables in a .env file.
+ * You would usually have process.env.MONGODB_URI, process.env.PORT, process.env.JWT_KEY etc.
+ * 
+ * Static Uploads Directory:
+ * -------------------------
+ * The '/uploads' directory is set up to serve static files.
+ * Primarily used for testing by uploading images.
+ * 
+ * Error Handling:
+ * ---------------
+ * The last two middleware functions handle 404 and 500 errors.
+ * If you need to add more types of errors or handle them in a specific manner,
+ * this is where you would do it.
+ */
+
